@@ -1,0 +1,151 @@
+/* Comments in CSS are enclosed in a pair of slashes and asterisks */
+
+a { /* following commands make text not change after being visited, also changing colour of text before and after being hovered upon*/
+    text-decoration: none;
+  }
+  #sidenav a:link, a:visited {
+    color: white;
+  }
+  #sidenav a:hover {
+    color: #828282;
+  }
+body{
+  background-image: url("images/homepagewallpaper.jpg"); /*change background of website */
+  background-color: rgb(1, 77, 137); /* if the background image doesn't load, change the background to a solid color*/
+  /* following 2 lines alters the background image so that it doesnt repeat and fills the entire page*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+}
+.sidebar {
+  height: 100%; /* span full taskbar height to fit entire screen */
+  width: 85px;  /*changes length of taskbar when expanded, MATCH PX WITH #homePageBody*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(1,21,60,0.93);
+  padding-top: 18px;
+  white-space: nowrap; /* disables text from going to the next line */
+  overflow-x:hidden; /* used to clip text that is not in the width of the box*/
+  z-index:1; /* makes homepage body go over the sidebar, so that the text doesnt overlap*/
+  transition: 0.4s; /* smoothly open and close sidebar*/
+  line-height:200%; /* spacing between icons */
+  margin-top: 66px;
+}
+.sidebar a {
+  padding: 0px 8px 10px 26px; /* top, right, bottom, left padding in order*/
+  text-decoration: none; /* make text not change colour after being visited*/
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+.sidebar a:hover {
+  color: #ababab; /* hovering over links on sidebar changes color to white*/
+}
+
+main .sidebar{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidebar-icons,
+.icon-text {
+  vertical-align: middle; /*align icon and title align together*/
+}
+.sidebar-icons {
+  margin-right: 30px
+}
+#homePageBody{
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  transition: margin-left 0.4s; /* add smooth transition to body when opening and closing sidebar*/
+  margin-left: 85px;  /*make sidebar not overlap from homepage text, Same as the width of the sidebar */
+}
+#homePageheader{
+  color: white;
+  text-align:center;
+  font-size: 64px;
+}
+#general {
+  text-align:center;
+}
+table{
+  text-align:center;
+  align:center; 
+}
+.section1 h2{
+  font-size:45px;
+}
+#creators{
+  font-size:45px;
+}
+body{
+  color:white;
+  font-family:"Open Sans", sans-serif; /* "Open Sans" signifies the font of our choosing, "sans-serif" is the backup font family in case the first doesn't work */
+}
+@media screen and (max-height: 450px) { /* adjust screen for smaller displays */
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+h2{
+  font-weight:600;/*makes font more or less bold*/
+  margin-bottom: 10px;/*removes spacing between header and paragraph*/
+}
+p{
+  font-size:30px;
+  margin-top: 0px;/*removes spacing between header and paragraph*/
+}
+.section1{
+  background:rgba(1,21,60,0.6);
+  padding:15px;
+}
+th{
+  font-size:30px;
+}
+html {
+  scroll-behavior: smooth; /* when clicking on a link that brings you somewhere on the same page, it will scroll to it instead of instantly teleporting */
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.12); /* How much it will zoom by */
+}
+.webTitle {
+  font-size:20px;
+  background-color:rgb(1,21,60);
+  overflow: hidden;
+  padding-left:16px;
+  width:100%;
+  z-index:2; /* layers the title in front of the side bar */
+  position: fixed; /* stays in the same place on screen when scrolling */
+  left:0;
+  height:7%;
+}
+#title{
+  margin-top:5px;
+}
+.webTitle a{
+  color:white;
+}
+.rough{
+  text-align:center;
+}
+h2{
+  font-size:40px;
+}
+td img {
+  margin-left: 27px;
+  margin-right: auto;
+  display: block;
+}

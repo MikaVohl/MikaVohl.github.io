@@ -1,0 +1,133 @@
+<!--
+  Mika Vohl
+  02/22/2022
+  Home Page
+  This page contains the code for the beginning homepage
+-->
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css"><!-- Links the index to the style sheet -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"><!--Links the index to a google font sheet for Open Sans-->
+    <script src="script.js"></script><!--Links the index to the script sheet-->
+    <title>
+      UNIT 1 WEB SITE
+    </title><!-- title tag text is what shows up at the top of the browser-->
+    <!--The following is an icon logo that appears in the title bar of my website-->
+    <link rel="icon" href="images/homepageIcon.png">
+  </head>
+  <body id="homePageBody">
+    <div class="webTitle">
+      <a href="index.html">
+        <h1 id="title">
+          Unit 1 Assignment
+        </h1>
+      </a>
+    </div>
+    <br>
+    <br>
+    <h1 id="homePageHeader">
+      Introduction to Using Computers and Programming
+    </h1>
+    <br>
+    <div id="sidenav" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()"> <!-- showing states of mouse on and off the sidebar -->
+      <a href="index.html">
+        <img src="images/homeIcon.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Home</span>
+      </a>
+      <a href="mainConcepts/BinaryAndAnalogSignals/index.html">
+        <img src="images/lightswitchIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Binary And Analog Signals</span>
+      </a>
+      <a href="mainConcepts/CodingUsingHTML/index.html">
+        <img src="images/htmlIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Coding Using HTML</span>
+      </a>        
+      <a href="mainConcepts/CompiledAndInterpretedLanguages/index.html">
+        <img src="images/compilerIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Compiled and Interpreted Languages</span>
+      </a>
+      <a href="mainConcepts/ComputerHardwareAndSoftware/index.html">
+        <img src="images/hardwareIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Computer Hardware and Software</span>
+      </a>
+      <a href="mainConcepts/ComputerNumberSystems/index.html">
+        <img src="images/computernumbersystemsIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Computer Number Systems</span>
+      </a>
+      <a href="mainConcepts/Documentation/index.html">
+        <img src="images/documentationIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Documentation</span>
+      </a>
+      <a href="mainConcepts/FormattingCode/index.html">
+        <img src="images/formattingIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Formatting Code</span>
+      </a>
+      <a href="mainConcepts/ProgrammingUsingAnInstructionSet/index.html">
+        <img src="images/instructionIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Programming Using An Instruction Set</span>
+      </a>
+      <a href="mainConcepts/WebDesignUsingCSS/index.html">
+        <img src="images/cssIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Web Design Using CSS</span>
+      </a>
+      <a href="roughWork/References/index.html">
+        <img src="images/referenceIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">References</span>
+      </a>
+      <a href="roughWork/SiteMap&RoughSketches/index.html">
+        <img src="images/siteMapIconW.png" width="35" height="35" class="sidebar-icons"></img>
+        <span class="icon-text">Site Map & Rough Sketches</span>
+      </a>
+    </div>
+    <section id="general">
+      <div class="section1">
+        <table>
+          <tr>
+            <td>
+              <img src="images/Programming.jpg" width="750" height="337.7">
+            </td>
+            <td>
+              <!--h2 to h6 is used for smaller and smaller headings-->
+              <h2>
+                About This Website
+              </h2>
+              <!--Use the p tag for all paragraphs-->
+              <p>
+                Welcome to my website! This website will contain some basic information ranging from the basics of HTML to converting from Binary. Feel free to browse around and inform yourself on Computers and Programming. Enjoy!
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <br>
+      <div class="section1">
+        <table width="100%">
+          <tr><th id=creators>Creator</th></tr>
+          <tr>
+            <td>
+              <a href="#AboutMika">
+                <img class="zoom" src="images/MikaAvatar.png" width="400" height="400">
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <th>Mika Vohl</th>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <a id="AboutMika">
+        <div class="section1">
+          <h1>
+            About Mika Vohl
+          </h1>
+          <p>
+            Hi, My name is Mika Vohl. From a young age, I have been interested in technology. Over the past years, I have discovered computer programming. I have found out that I enjoy the problem-solving aspect of programming and would like to pursue computer science as a career. So far I have knowledge in HTML, CSS, JavaScript, and am exploring Python and would love to learn more.
+          </p>
+        </div>
+      </a>
+    </section>
+  </body>  
+</html>
