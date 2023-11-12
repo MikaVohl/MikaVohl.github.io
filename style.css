@@ -34,10 +34,11 @@ body{
     color: grey;
 }
 #intro img{
+    object-position: center 70%;
     object-fit: cover;
     border-radius: 10%;
     width: calc(16vw + 80px);
-    height: calc(14vw + 65px);
+    height: calc(14.5vw + 70px);
 }
 #sidebar{
     top: 50%;
@@ -144,6 +145,8 @@ body{
 }
 #projects td{
     text-align: center;
+    padding-top: calc(1vw + 1vh + 15px);
+
 }
 #projects h2{
     font-size: calc(2.8vw + 0.9vh + 70%);
@@ -153,6 +156,7 @@ body{
 #projects h3{
     font-size: calc(1vw + 0.4vh + 30%);
     font-weight: bold;
+    margin-block-end: 0.5em;
 }
 #projects img{
     object-fit: cover;
@@ -162,7 +166,7 @@ body{
     border-style: solid;
     border-color: rgb(209, 209, 209);
     border-width: 3px;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.258)
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.258);
 }
 .zoom:hover {
     transform: scale(1.05); /* How much it will zoom by */
@@ -196,6 +200,7 @@ body{
 }
 #about img{
     object-fit: cover;
+    object-position: center;
     border-radius: 10%;
     width: calc((16vw + 80px)*1.3);
     height: calc((14vw + 65px)*1.4);
