@@ -137,13 +137,11 @@ body{
 }
 #projects td{
     text-align: center;
-    padding-top: calc(1vw + 1vh + 15px);
-
 }
 #projects h2{
     font-size: calc(2.8vw + 0.9vh + 70%);
     font-weight: bold;
-    margin-bottom: 0;
+    margin-bottom: calc(0.5vw + 3vh + 15px);
 }
 #projects h3{
     font-size: calc(1vw + 0.4vh + 30%);
@@ -153,7 +151,7 @@ body{
 #projects img{
     object-fit: cover;
     width: 24vw;
-    height: 12vw;
+    height: 18.5vw;
     border-radius: 10%;
     border-style: solid;
     border-color: rgb(209, 209, 209);
