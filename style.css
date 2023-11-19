@@ -12,7 +12,7 @@ body{
     font-family: "Poppins", sans-serif;
 }
 #intro{
-    scroll-margin-top: 200px;
+    scroll-margin-top: 250px;
 }
 #intro table{
     width: calc(4vw + 60% + 50px);
@@ -129,7 +129,7 @@ body{
 }
 #projects {
     text-align: center;
-    scroll-margin-top: 50px;
+    scroll-margin-top: calc( 12vh + 39px);
 }
 #projects table{
     width: 80%;
@@ -166,7 +166,7 @@ body{
 }
 #about{
     text-align: center;
-    scroll-margin-top: 50px;
+    scroll-margin-top: calc( 9vh + 35px);
 }
 #about table{
     width: calc(4vw + 60% + 50px);
