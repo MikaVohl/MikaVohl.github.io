@@ -131,6 +131,13 @@ body{
     text-align: center;
     scroll-margin-top: calc( 12vh + 39px);
 }
+.textLink {
+    text-decoration: none;
+    color: black;
+}
+.textLink:hover {
+    color: rgb(109, 105, 89);
+}
 #projects table{
     width: 80%;
     margin: auto;
