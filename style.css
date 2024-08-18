@@ -129,7 +129,7 @@ body{
 }
 #projects {
     text-align: center;
-    scroll-margin-top: calc( 12vh + 39px);
+    scroll-margin-top: calc( 5vh + 29px);
 }
 .textLink {
     text-decoration: none;
@@ -205,4 +205,20 @@ body{
 #about b{
     font-weight: 900;
     font-size: 105%;
+}
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    /* CSS code for mobile devices */
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
 }
